@@ -3,6 +3,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 100vh;
+    background-color: #D9D5D4;
 }
 
 section {
@@ -21,8 +22,13 @@ section {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(216, 216, 216);
     width: fit-content;
+    text-decoration: line-through;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .header {

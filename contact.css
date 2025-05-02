@@ -1,0 +1,23 @@
+p {
+    justify-self: center;
+}
+
+.refer {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.refer a {
+    margin-left: 1em;
+}
+
+.refer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 1em;
+}
