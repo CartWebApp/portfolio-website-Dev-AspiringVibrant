@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: #DB1304;
+    color: white;
+    border-radius: 1em;
+}
+
+.main {
+    width: 200px;
+    height: fit-content;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+}
+
+.header {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
