@@ -1,0 +1,10 @@
+div img {
+    width: 600px;
+    height: 600px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

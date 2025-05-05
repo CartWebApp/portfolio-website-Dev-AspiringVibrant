@@ -1,0 +1,29 @@
+.box {
+    /* background-color: red; */
+    height: 700px;
+    width: 400px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.box:nth-child(2) {
+    /* background-color: orange; */
+}
+
+.box:nth-child(1) {
+    position: relative;
+    width: 300px;
+    padding-left: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.crown {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

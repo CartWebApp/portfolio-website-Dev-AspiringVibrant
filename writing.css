@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+img {
+    width: 400px;
+    height: 600px;
+}
+
+p {
+    text-align: center;
+}
