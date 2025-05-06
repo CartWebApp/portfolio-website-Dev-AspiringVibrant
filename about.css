@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+}
+
+h2 {
+    width: 30px;
+    writing-mode: sideways-lr;
+    align-self: center;
+}
+
+p {
+    width: 400px;
+    align-self: center;
+}
+
+.col {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
