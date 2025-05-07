@@ -1,10 +1,24 @@
 .red {
-    background-color: red;
+    background: radial-gradient(400px, rgba(255, 0, 0, 0.455), rgb(193, 0, 0));
+    box-shadow: 10px 10px white;
+    transition: 1s;
+    z-index: 1;
 }
 
 .yellow {
-    background-color: yellow;
+    background: radial-gradient(400px,white, rgba(235, 235, 31, 0.455));
     transform: translateY(100px);
+    box-shadow: 10px 10px white;
+    transition-duration: 1s;
+}
+
+.red:hover {
+    box-shadow: 20px 20px black;
+    background-color: rgb(193, 0, 0);
+}
+.yellow:hover {
+    box-shadow: 20px 20px black;
+    background-color: rgb(235, 235, 31);
 }
 
 .square {

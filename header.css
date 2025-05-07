@@ -18,10 +18,12 @@ body {
 
 header {
     width: 100vw;
+    height: 30px;
     padding: 1em;
     background-color: #DB8504;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 a {

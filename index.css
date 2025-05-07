@@ -26,7 +26,8 @@ section {
 
 .main {
     width: 200px;
-    height: fit-content;
+    height: 160px;
+    transition: 1s;
 }
 
 a {
@@ -38,6 +39,10 @@ a {
 a:hover {
     color: white;
     text-decoration: none;
+}
+
+.header:hover ~ .main {
+    height: 200px;
 }
 
 .header {
