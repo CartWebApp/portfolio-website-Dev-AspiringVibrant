@@ -22,12 +22,18 @@ section {
     background-color: #DB1304;
     color: white;
     border-radius: 1em;
+    box-shadow: 10px 10px white;
+    transition: box-shadow 1s;
+}
+
+section:hover {
+    box-shadow: 20px 20px black;
 }
 
 .main {
     width: 200px;
     height: 160px;
-    transition: 1s;
+    transition: height 1s, box-shadow 1s;
 }
 
 a {
@@ -35,6 +41,7 @@ a {
     color: rgb(216, 216, 216);
     width: fit-content;
     text-decoration: line-through;
+    transition: transform 1s;
 }
 a:hover {
     color: white;
@@ -45,10 +52,15 @@ a:hover {
     height: 200px;
 }
 
+.header:hover a {
+    transform: translateX(60px);
+}
+
 .header {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: 20px;
 }

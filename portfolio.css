@@ -3,6 +3,7 @@
     box-shadow: 10px 10px white;
     transition: 1s;
     z-index: 1;
+    border-radius: 1em;
 }
 
 .yellow {
@@ -10,6 +11,7 @@
     transform: translateY(100px);
     box-shadow: 10px 10px white;
     transition-duration: 1s;
+    border-radius: 1em;
 }
 
 .red:hover {

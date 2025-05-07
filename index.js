@@ -20,7 +20,7 @@ function changeAbout() {
 
 function oldTitle() {
     title.innerHTML = "Greeting!";
-    paragraph.innerHTML = "Hello! Welcome to my website!"
+    paragraph.innerHTML = "Welcome to my website! Feel free to explore and discover about me!"
 }
 
 function changeResume() {
