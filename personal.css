@@ -1,9 +1,9 @@
-div img {
+img {
     width: 600px;
     height: 600px;
 }
 
-div {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;

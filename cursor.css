@@ -1,5 +1,5 @@
 * {
-    cursor: none;
+    cursor: none !important;
   }
   
   
@@ -16,11 +16,12 @@
       background-color 0.3s, width 0.3s, height 0.3s;
     width: 10px;
     height: 10px;
-    /* background-color: #6b3be7; */
     border: 2px black solid;
+    background-color: transparent !important;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: spin 3s linear infinite;
     &.active {
       transform: translate(-50%, -50%) scale(1.5);
     }
@@ -31,4 +32,22 @@
   
   a {
     cursor: none !important;
+  }
+
+  @keyframes spin {
+    from {
+      box-shadow: 4px 4px 3px white;
+    }
+    25% {
+      box-shadow: 4px -4px 3px white;
+    }
+    50% {
+      box-shadow: -4px -4px 3px white;
+    }
+    75% {
+      box-shadow: -4px 4px 3px white;
+    }
+    to {
+      box-shadow: 4px 4px 3px white;
+    }
   }

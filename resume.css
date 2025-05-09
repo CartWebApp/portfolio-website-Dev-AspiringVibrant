@@ -15,7 +15,7 @@
     background-color: #DB3A04;
     cursor: pointer;
     padding: 0px 1em;
-    transition: 1s;
+    transition: background-color 1s;
 }
 
 .copy:hover {
@@ -24,12 +24,19 @@
 }
 
 .rectangle {
-    background-color: #F1D8CF;
+    background-color: #d2cbc8;
     position: absolute;
     width: 700px;
     height: 100px;
     z-index: 1;
     justify-self: center;
+}
+
+.side-header {
+    background-color: #d2cbc8;
+    width: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .info {

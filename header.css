@@ -37,3 +37,37 @@ a:hover {
 h1 {
     justify-self: center;
 }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #db8504d7;
+    padding: 0px 1em;
+    position: absolute;
+    display: none;
+    width: 140px;
+    height: 70px;
+    transform: translate(-0px, 20px)
+}
+
+.dropdown:hover > .dropdown-content {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #db8504d7;
+    padding: 0px 1em;
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    transform: translate(-0px, 20px)
+}
+
+.dropdown:hover {
+    padding: 5em 0px;
+}
