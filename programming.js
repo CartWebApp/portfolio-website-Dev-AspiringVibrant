@@ -28,10 +28,10 @@ function showSlides(n) {
 }
 
 let desc = [
-  "I learned how to stylize better with the CSS code on Visual Studio Code. I also learned how to layout website to make it look professional.",
-  "I learn",
-  "the",
-  "no",
+  "I learned how to stylize better with the CSS code on Visual Studio Code from how to layout website to make it look professional. After I coded this website, I understand better about the function of display: flex.",
+  "I learned more about media queries such as hiding content for print queries in CSS and how to code a print function in JavaScript.",
+  "I did a budget calculator on saving budget. It has a 50/30/20 rule after the user submitted in their answer. When typing in the number, my code runs through each function to get the result. At the end, it shows a pie chart on the max the user can spend to not be in debt.",
+  "In this project, I worked in a team of five. Three being programmers and other two focus on UX design. I realized why teamwork was important when creating a big project. Each of us have a different way to direct the project. When pushing and pulling commits from Github repository, there is a great chance that a functionality can break.",
 ]
 
 function changeText() {

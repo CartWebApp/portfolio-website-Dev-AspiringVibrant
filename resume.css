@@ -1,3 +1,7 @@
+body {
+    padding-bottom: 3em;
+}
+
 .container {
     display: flex;
     background-color: white;
